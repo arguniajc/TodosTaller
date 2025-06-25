@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #cbfd41, #00011d);
+  text-align: center;
+}
+
+main {
+  flex: 1;
+}
+
+h1 {
+  background: linear-gradient(135deg, #0e4d06, #4c4ecc);
+  color: white;
+  padding: 1rem;
+  margin: 0;
+}
+
+.contenedor-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.tarjeta {
+  display: block;
+  width: 200px;
+  background: linear-gradient(135deg, #e91111, #0007df);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  transition: box-shadow 0.3s;
+}
+
+.tarjeta:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+   background: linear-gradient(135deg, #0007df, #e91111);
+}
+
+footer {
+  background: linear-gradient(135deg, #0e4d06, #4c4ecc);
+  color: white;
+  padding: 1rem;
+}
